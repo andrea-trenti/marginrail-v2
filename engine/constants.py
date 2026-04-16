@@ -1,0 +1,57 @@
+from __future__ import annotations
+
+DEFAULT_SHEETS = {
+    "vendite": "Vendite_2025",
+    "workflow": "Workflow_Deroghe_2025",
+    "clienti": "Clienti",
+    "prodotti": "Prodotti",
+    "accordi": "Accordi_Commerciali",
+    "promo": "Promo_2025",
+}
+
+NUMERIC_COLUMNS = [
+    "QtaDocumento",
+    "QtaOrdinata",
+    "QtaResa",
+    "PrezzoListinoUnit",
+    "ScontoBasePct",
+    "ScontoContrattualePct",
+    "ScontoPromoPct",
+    "ScontoExtraPct",
+    "ScontoTotalePct",
+    "PrezzoNettoUnit",
+    "FloorPriceUnit",
+    "CostoStandardUnit",
+    "CostoAttualeUnit",
+    "VariazioneCostoPct",
+    "CostoLogisticoUnit",
+    "CommissionePct",
+    "FeeCanalePct",
+    "RicavoRiga",
+    "CostoMerceRiga",
+    "CostoLogisticoTot",
+    "CommissioneTot",
+    "FeeCanaleTot",
+    "MargineLordo",
+    "MargineContributivo",
+    "MarginePct",
+    "SogliaScontoRuoloPct",
+    "ScontoBase_cliente",
+    "MargineTarget_prodotto",
+    "PrezzoContrattualeUnit_acc",
+    "FloorPriceUnit_acc",
+    "ScontoContrattualePct_acc",
+    "ScontoExtraPct_promo",
+]
+
+REVIEW_COLUMNS = [
+    "ReviewOutcome",
+    "Reviewer",
+    "ReviewTimestamp",
+    "ReviewNote",
+    "ThresholdFeedback",
+    "CorrectFlag",
+    "FalsePositive",
+    "SeverityCorrect",
+    "OwnerCorrect",
+]

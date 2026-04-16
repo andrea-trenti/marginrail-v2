@@ -1,0 +1,23 @@
+{
+  "extra_discount_tolerance": 0.02,
+  "low_margin_floor": 0.12,
+  "low_margin_gap_vs_target": 0.05,
+  "low_margin_min_risk_eur": 150.0,
+  "cost_increase_trigger": 0.05,
+  "cost_pass_min_risk_eur": 150.0,
+  "severe_floor_gap_pct": 0.05,
+  "high_risk_value_eur": 1000.0,
+  "medium_risk_value_eur": 250.0,
+  "discount_role_buffer_pct": 0.015,
+  "discount_role_min_gap_pct": 0.015,
+  "skip_discount_if_active_promo": true,
+  "skip_discount_if_active_contract": true,
+  "return_note_min_abs_value_eur": 250.0,
+  "credit_risk_min_discount_pct": 0.0,
+  "high_risk_only_credit_rule": true,
+  "review_sample_discount": 20,
+  "review_sample_low_margin": 20,
+  "review_sample_cost_pass": 20,
+  "review_sample_credit": 10,
+  "review_sample_returns": 10
+}
